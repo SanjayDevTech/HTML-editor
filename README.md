@@ -1,7 +1,10 @@
-## HTML editor
-Created with love by Sanjay developer
+# HTML editor
+A simple live html editor
 
-## Libraries used
-	* CodeMirror
-	* jQuery
-	* FontAwesome
+### Libraries used
+- CodeMirror
+- jQuery
+- FontAwesome
+
+
+**Happy Coding**
