@@ -15,8 +15,8 @@ $(document).ready(function(){
     editor.setOption("theme", "material-darker");
 
 	function loadHtml(html) {
-		const document_pattern = /( )*?document/i;
-		let finalHtml = html.replace(document_pattern, "document.getElementById('result').contentWindow.document");
+		const document_pattern = /( )*?document\./i;
+		let finalHtml = html.replace(document_pattern, "document.getElementById('result').contentWindow.document.");
 		$('#result').contents().find('html').html(finalHtml);
 	}
 
